@@ -13,6 +13,8 @@
 		9D577AA81BA36B97009C073B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D577AA71BA36B97009C073B /* Images.xcassets */; };
 		9D577AAB1BA36B97009C073B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D577AA91BA36B97009C073B /* Main.storyboard */; };
 		9D577AB71BA36B97009C073B /* MyFirstMacAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D577AB61BA36B97009C073B /* MyFirstMacAppTests.m */; };
+		9DB166911BA6246B00E5381E /* Transaction.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DB166901BA6246B00E5381E /* Transaction.m */; };
+		9DD1F1441BA4B04B0063FC2C /* CHCSVParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DD1F1431BA4B04B0063FC2C /* CHCSVParser.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,7 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		9D577A9A1BA36B97009C073B /* MyFirstMacApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyFirstMacApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D577A9A1BA36B97009C073B /* Statement Explorer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Statement Explorer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D577A9E1BA36B97009C073B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9D577A9F1BA36B97009C073B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9D577AA01BA36B97009C073B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -35,9 +37,13 @@
 		9D577AA51BA36B97009C073B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		9D577AA71BA36B97009C073B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		9D577AAA1BA36B97009C073B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		9D577AB01BA36B97009C073B /* MyFirstMacAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyFirstMacAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D577AB01BA36B97009C073B /* StatementExplorerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StatementExplorerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D577AB51BA36B97009C073B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9D577AB61BA36B97009C073B /* MyFirstMacAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyFirstMacAppTests.m; sourceTree = "<group>"; };
+		9DB1668F1BA6246B00E5381E /* Transaction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Transaction.h; sourceTree = "<group>"; };
+		9DB166901BA6246B00E5381E /* Transaction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Transaction.m; sourceTree = "<group>"; };
+		9DD1F1421BA4B04B0063FC2C /* CHCSVParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHCSVParser.h; sourceTree = "<group>"; };
+		9DD1F1431BA4B04B0063FC2C /* CHCSVParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHCSVParser.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,8 +67,8 @@
 		9D577A911BA36B97009C073B = {
 			isa = PBXGroup;
 			children = (
-				9D577A9C1BA36B97009C073B /* MyFirstMacApp */,
-				9D577AB31BA36B97009C073B /* MyFirstMacAppTests */,
+				9D577A9C1BA36B97009C073B /* StatementExplorer */,
+				9D577AB31BA36B97009C073B /* StatementExplorerTests */,
 				9D577A9B1BA36B97009C073B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -70,24 +76,28 @@
 		9D577A9B1BA36B97009C073B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9D577A9A1BA36B97009C073B /* MyFirstMacApp.app */,
-				9D577AB01BA36B97009C073B /* MyFirstMacAppTests.xctest */,
+				9D577A9A1BA36B97009C073B /* Statement Explorer.app */,
+				9D577AB01BA36B97009C073B /* StatementExplorerTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9D577A9C1BA36B97009C073B /* MyFirstMacApp */ = {
+		9D577A9C1BA36B97009C073B /* StatementExplorer */ = {
 			isa = PBXGroup;
 			children = (
 				9D577A9F1BA36B97009C073B /* AppDelegate.h */,
 				9D577AA01BA36B97009C073B /* AppDelegate.m */,
+				9DD1F1421BA4B04B0063FC2C /* CHCSVParser.h */,
+				9DD1F1431BA4B04B0063FC2C /* CHCSVParser.m */,
+				9DB1668F1BA6246B00E5381E /* Transaction.h */,
+				9DB166901BA6246B00E5381E /* Transaction.m */,
 				9D577AA41BA36B97009C073B /* ViewController.h */,
 				9D577AA51BA36B97009C073B /* ViewController.m */,
 				9D577AA71BA36B97009C073B /* Images.xcassets */,
 				9D577AA91BA36B97009C073B /* Main.storyboard */,
 				9D577A9D1BA36B97009C073B /* Supporting Files */,
 			);
-			path = MyFirstMacApp;
+			path = StatementExplorer;
 			sourceTree = "<group>";
 		};
 		9D577A9D1BA36B97009C073B /* Supporting Files */ = {
@@ -99,13 +109,13 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		9D577AB31BA36B97009C073B /* MyFirstMacAppTests */ = {
+		9D577AB31BA36B97009C073B /* StatementExplorerTests */ = {
 			isa = PBXGroup;
 			children = (
 				9D577AB61BA36B97009C073B /* MyFirstMacAppTests.m */,
 				9D577AB41BA36B97009C073B /* Supporting Files */,
 			);
-			path = MyFirstMacAppTests;
+			path = StatementExplorerTests;
 			sourceTree = "<group>";
 		};
 		9D577AB41BA36B97009C073B /* Supporting Files */ = {
@@ -119,9 +129,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9D577A991BA36B97009C073B /* MyFirstMacApp */ = {
+		9D577A991BA36B97009C073B /* Statement Explorer */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9D577ABA1BA36B97009C073B /* Build configuration list for PBXNativeTarget "MyFirstMacApp" */;
+			buildConfigurationList = 9D577ABA1BA36B97009C073B /* Build configuration list for PBXNativeTarget "Statement Explorer" */;
 			buildPhases = (
 				9D577A961BA36B97009C073B /* Sources */,
 				9D577A971BA36B97009C073B /* Frameworks */,
@@ -131,14 +141,14 @@
 			);
 			dependencies = (
 			);
-			name = MyFirstMacApp;
+			name = "Statement Explorer";
 			productName = MyFirstMacApp;
-			productReference = 9D577A9A1BA36B97009C073B /* MyFirstMacApp.app */;
+			productReference = 9D577A9A1BA36B97009C073B /* Statement Explorer.app */;
 			productType = "com.apple.product-type.application";
 		};
-		9D577AAF1BA36B97009C073B /* MyFirstMacAppTests */ = {
+		9D577AAF1BA36B97009C073B /* StatementExplorerTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9D577ABD1BA36B97009C073B /* Build configuration list for PBXNativeTarget "MyFirstMacAppTests" */;
+			buildConfigurationList = 9D577ABD1BA36B97009C073B /* Build configuration list for PBXNativeTarget "StatementExplorerTests" */;
 			buildPhases = (
 				9D577AAC1BA36B97009C073B /* Sources */,
 				9D577AAD1BA36B97009C073B /* Frameworks */,
@@ -149,9 +159,9 @@
 			dependencies = (
 				9D577AB21BA36B97009C073B /* PBXTargetDependency */,
 			);
-			name = MyFirstMacAppTests;
+			name = StatementExplorerTests;
 			productName = MyFirstMacAppTests;
-			productReference = 9D577AB01BA36B97009C073B /* MyFirstMacAppTests.xctest */;
+			productReference = 9D577AB01BA36B97009C073B /* StatementExplorerTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -172,7 +182,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 9D577A951BA36B97009C073B /* Build configuration list for PBXProject "MyFirstMacApp" */;
+			buildConfigurationList = 9D577A951BA36B97009C073B /* Build configuration list for PBXProject "StatementExplorer" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -185,8 +195,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9D577A991BA36B97009C073B /* MyFirstMacApp */,
-				9D577AAF1BA36B97009C073B /* MyFirstMacAppTests */,
+				9D577A991BA36B97009C073B /* Statement Explorer */,
+				9D577AAF1BA36B97009C073B /* StatementExplorerTests */,
 			);
 		};
 /* End PBXProject section */
@@ -215,8 +225,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9DD1F1441BA4B04B0063FC2C /* CHCSVParser.m in Sources */,
 				9D577AA61BA36B97009C073B /* ViewController.m in Sources */,
 				9D577AA31BA36B97009C073B /* main.m in Sources */,
+				9DB166911BA6246B00E5381E /* Transaction.m in Sources */,
 				9D577AA11BA36B97009C073B /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -234,7 +246,7 @@
 /* Begin PBXTargetDependency section */
 		9D577AB21BA36B97009C073B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 9D577A991BA36B97009C073B /* MyFirstMacApp */;
+			target = 9D577A991BA36B97009C073B /* Statement Explorer */;
 			targetProxy = 9D577AB11BA36B97009C073B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -335,9 +347,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = MyFirstMacApp/Info.plist;
+				INFOPLIST_FILE = StatementExplorer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = $TARGET_NAME;
 			};
 			name = Debug;
 		};
@@ -346,9 +358,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = MyFirstMacApp/Info.plist;
+				INFOPLIST_FILE = StatementExplorer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = $TARGET_NAME;
 			};
 			name = Release;
 		};
@@ -391,7 +403,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9D577A951BA36B97009C073B /* Build configuration list for PBXProject "MyFirstMacApp" */ = {
+		9D577A951BA36B97009C073B /* Build configuration list for PBXProject "StatementExplorer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9D577AB81BA36B97009C073B /* Debug */,
@@ -400,21 +412,23 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9D577ABA1BA36B97009C073B /* Build configuration list for PBXNativeTarget "MyFirstMacApp" */ = {
+		9D577ABA1BA36B97009C073B /* Build configuration list for PBXNativeTarget "Statement Explorer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9D577ABB1BA36B97009C073B /* Debug */,
 				9D577ABC1BA36B97009C073B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		9D577ABD1BA36B97009C073B /* Build configuration list for PBXNativeTarget "MyFirstMacAppTests" */ = {
+		9D577ABD1BA36B97009C073B /* Build configuration list for PBXNativeTarget "StatementExplorerTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9D577ABE1BA36B97009C073B /* Debug */,
 				9D577ABF1BA36B97009C073B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "-[ViewController filterButton:]:ViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[_fromDate dateValue]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[ViewController tableView:viewForTableColumn:row:]:ViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[ViewController openFile:]:ViewController.m">
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
