@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>BDF74602-D11D-46FA-AC62-6C4B6706C3BD</string>
+	<key>IDESourceControlProjectName</key>
+	<string>StatementExplorer</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>5EE9248FE69D3BD0CEEB7BB331DA36C7C13A4ADE</key>
+		<string>github.com:MoNurk/statement-explorer.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>StatementExplorer.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>5EE9248FE69D3BD0CEEB7BB331DA36C7C13A4ADE</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:MoNurk/statement-explorer.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>5EE9248FE69D3BD0CEEB7BB331DA36C7C13A4ADE</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>5EE9248FE69D3BD0CEEB7BB331DA36C7C13A4ADE</string>
+			<key>IDESourceControlWCCName</key>
+			<string>StatementExplorer</string>
+		</dict>
+	</array>
+</dict>
+</plist>
